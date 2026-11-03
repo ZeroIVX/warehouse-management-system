@@ -1,0 +1,17 @@
+[theme]
+# 锁定浅色主题：本项目的设计 token 全部基于浅底深字。
+# 若不锁定，系统处于深色模式时 Streamlit 会把未覆盖的文字翻成浅色，
+# 与自定义的浅色背景撞在一起，出现「浅底浅字」。
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F6F8FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true
+
+[browser]
+gatherUsageStats = false

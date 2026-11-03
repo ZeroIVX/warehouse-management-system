@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# 本地数据库连接配置（含账号密码，禁止提交）
+db.env
+
+# Streamlit 本地密钥
+.streamlit/secrets.toml
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行日志与临时文件
+*.log
+*.tmp
+~$*
+
+# 数据库备份
+*.bak
+*.mdf
+*.ldf
